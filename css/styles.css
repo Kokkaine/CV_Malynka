@@ -1,0 +1,145 @@
+/* Preso da w3schools 
+https://www.w3schools.com/howto/howto_css_social_media_buttons.asp*/
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+  body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+  }
+
+   /* B1 - Barra Top */
+   .header {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .top {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .undertop {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .barra-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  button {
+    background-color: transparent;
+    height: auto;
+    width: auto;
+    border: none;
+  }
+
+  .lavori {
+    background-color: aqua;
+    color: white;  
+  }
+
+ /* B2 - Immagine & Visione */
+  .foto-profilo {
+    display: flex;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    position: static;
+    padding-top: 25px;
+  }
+  
+  .visione {
+    text-align: right;
+    padding: 40px;
+    width: 300px;
+  }
+  
+  .visione-titolo {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .visone-contenuto {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  
+  .exp1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+  
+  .exp1-titolo {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .exp1-contenuto {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .exp1-mansione {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .exp1-timeline {
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  
+  .exp2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+  
+  .exp2-contenuto {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  .exp2-mansione {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+
+
