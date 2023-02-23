@@ -1,145 +1,114 @@
-/* Preso da w3schools 
-https://www.w3schools.com/howto/howto_css_social_media_buttons.asp*/
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
+/*Impostazioni Generali */
 
   body {
     font-family: 'Courier New', monospace;
     margin: 0;
     padding: 0;
   }
-
-   /* B1 - Barra Top */
-   .header {
+  
+  /* Immagine & Visione */
+  .immvis {
     display: flex;
-    flex-direction: column;
-    align-items: left;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
     align-items: center;
+    padding: 0px 15px 0px 15px;
+    margin-top: 50px;
   }
   
-  .top {
-    font-size: 36px;
-    margin-bottom: 10px;
-  }
-  
-  .undertop {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .barra-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: left;
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
-
-  button {
-    background-color: transparent;
-    height: auto;
-    width: auto;
-    border: none;
-  }
-
-  .lavori {
-    background-color: aqua;
-    color: white;  
-  }
-
- /* B2 - Immagine & Visione */
   .foto-profilo {
-    display: flex;
-    margin-right: auto;
     border-radius: 50%;
-    width: 500px;
-    height: 500px;
-    position: static;
-    padding-top: 25px;
+    width: 250px;
+    height: 250px;
   }
   
   .visione {
-    text-align: right;
-    padding: 40px;
-    width: 300px;
+    margin-top: 0;
+    margin-left: 50px;
+    text-align: center;
   }
   
   .visione-titolo {
+    margin-top: 0;
+    text-align: left;
     font-size: 36px;
     margin-bottom: 20px;
   }
   
-  .visone-contenuto {
+  .visione-contenuto {
+    text-align: left;
     font-size: 18px;
-    line-height: 1.5;
-    text-align: justify;
+    /* margin: 20px; */
+    margin: 0;
   }
   
-  .exp1 {
+  /* Esperienza Lavorativa */
+  .exp1-exp2 {
+    display: flex;
+  }
+  .exp1, .exp2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #f2f2f2;
-    padding: 40px;
+    padding: 50px;
+    margin-top: 50px;
   }
   
-  .exp1-titolo {
+  .exp1-titolo, .exp2-titolo {
     font-size: 36px;
     margin-bottom: 20px;
   }
   
-  .exp1-contenuto {
+  .exp1-contenuto, .exp2-contenuto {
     font-size: 18px;
-    line-height: 1.5;
-    text-align: justify;
-    width: 60%;
-    margin: 0 auto;
+    margin: 20px;
   }
   
-  .exp1-mansione {
-    font-weight: bold;
-    margin-bottom: 10px;
+
+  
+  .exp1-info, .exp2-info {
+    margin: 20px;
+    align-items: left;
+    margin: 0;
   }
   
-  .exp1-timeline {
-    font-style: italic;
-    margin-bottom: 20px;
+  /* Soft & Hard Skills */
+  .skill {
+    margin-bottom: 100px;
   }
   
-  .exp2 {
+  .skill-carattere {
+    font-size: 20px;
+  }
+  
+  .skill-title {
+    text-align: center;
+  }
+  
+  .skill-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f2f2f2;
-    padding: 40px;
+    justify-content: space-around;
   }
   
-  .exp2-contenuto {
-    font-size: 18px;
-    line-height: 1.5;
-    text-align: justify;
-    width: 60%;
-    margin: 0 auto;
+  .soft-skill {
+    margin-bottom: 40px;
   }
-  
-  .exp2-mansione {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
+ 
+/* Social Buttom */
+.social-generic {
+  display:grid;
+  text-align: center;
+}
 
-
+.fa {
+    padding: 20px;
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    width: 1.2rem;
+    height: 1.2rem;
+    text-align: center;
+    text-decoration: none;
+  }
+  
