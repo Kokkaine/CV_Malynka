@@ -63,5 +63,53 @@
 
   .f1 {
     margin: 0;
-    font-size: 16px;
+    font-size: 14px;
   }
+
+
+
+/* General Media Query */
+  /* Telefono */
+  @media screen and (max-width: 480px) {
+  .barra_top-title {
+    width: 100%;
+    font-size: 24px;
+  }
+  
+  .barra_top-subtitle {
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .button, .contacts {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+  
+  .f1 {
+  font-size: 14px;
+  }
+  }
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .barra-top {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  }
+  
+  .title {
+  padding: 0;
+  }
+  
+  .info {
+  margin-top: 20px;
+  text-align: center;
+  }
+  
+  .contacts {
+  text-align: center;
+  }
+  }
+  

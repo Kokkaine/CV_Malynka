@@ -33,3 +33,30 @@ body {
    text-decoration: none;
    border-bottom: 2px solid #333;
  }
+
+
+/* General Media Query */
+/* Mobile */
+@media screen and (max-width: 480px) {
+  section {
+    width: 80%;
+    padding: 20px;
+  }
+  
+  .p-section {
+    font-size: 16px;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  section {
+    width: 85%;
+    padding: 30px;
+  }
+  
+  .p-section {
+    font-size: 17px;
+  }
+}
+
