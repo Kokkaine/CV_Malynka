@@ -1,39 +1,38 @@
 body {
-   background-image: url('https://www.fotodimontagna.it/wp-content/uploads/2017/11/AL084-Panne-1_1.jpg');
-   background-size: cover;
-   font-family: 'Courier New', monospace;
-   margin: 0;
-   padding: 0;
- }
+  background-image: url("https://www.fotodimontagna.it/wp-content/uploads/2017/11/AL084-Panne-1_1.jpg");
+  background-size: cover;
+  font-family: "Courier New", monospace;
+  margin: 0;
+  padding: 0;
+}
 
- section {
+section {
   background-color: #f2f2f2;
   max-width: 800px;
   margin: 40px auto;
   padding: 40px;
   border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 1);
   line-height: 1.6;
   transform: translateY(10px);
   transition: transform 0.5s ease-in-out;
-  }
-  
-  section:hover {
+}
+
+section:hover {
   transform: translateY(0);
-  }
+}
 
 .p-section {
-   font-size: 18px;
-   margin-bottom: 30px;
-   text-align: justify;
- }
+  font-size: 18px;
+  margin-bottom: 30px;
+  text-align: justify;
+}
 
 .a-section {
-   color: #333;
-   text-decoration: none;
-   border-bottom: 2px solid #333;
- }
-
+  color: #333;
+  text-decoration: none;
+  border-bottom: 2px solid #333;
+}
 
 /* General Media Query */
 /* Mobile */
@@ -42,7 +41,7 @@ body {
     width: 80%;
     padding: 20px;
   }
-  
+
   .p-section {
     font-size: 16px;
   }
@@ -54,9 +53,8 @@ body {
     width: 85%;
     padding: 30px;
   }
-  
+
   .p-section {
     font-size: 17px;
   }
 }
-

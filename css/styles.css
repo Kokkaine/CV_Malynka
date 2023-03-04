@@ -1,102 +1,103 @@
 /*Impostazioni Generali */
 
-  body {
-    font-family: 'Courier New', monospace;
-    margin: 0;
-    padding: 0;
-  }
+body {
+  font-family: "Courier New", monospace;
+  margin: 0;
+  padding: 0;
+}
 
-  li {
-    margin-bottom: 10px;
-  }
+li {
+  margin-bottom: 10px;
+}
 
-  
-  /* Immagine & Visione */
-  .immvis {
-    display: flex;
-    align-items: center;
-    padding: 0px 15px 0px 15px;
-    margin-top: 50px;
-  }
-  
-  .foto-profilo {
-    display: block;
-    border-radius: 50%;
-    max-width: 100%;
-    min-width: 15%;
-    height: auto;
-  }
-  
-  .visione {
-    margin-top: 0;
-    text-align: center;
-  }
-  
-  .visione-titolo {
-    margin-top: 0;
-    text-align: left;
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .visione-contenuto {
-    text-align: left;
-    font-size: 18px;
-    /* margin: 20px; */
-    margin: 0;
-  }
-  
-  /* Esperienza Lavorativa */
-  .exp1-exp2 {
-    display: flex;
-  }
-  .exp1, .exp2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f2f2f2;
-    padding: 50px;
-    margin-top: 50px;
-  }
-  
-  .exp1-titolo, .exp2-titolo {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .exp1-contenuto, .exp2-contenuto {
-    font-size: 18px;
-    margin: 20px;
-  }
-  
+/* Immagine & Visione */
+.immvis {
+  display: flex;
+  align-items: center;
+  padding: 0px 15px 0px 15px;
+  margin-top: 50px;
+}
 
-  
-  .exp1-info, .exp2-info {
-    margin: 20px;
-    align-items: left;
-    margin: 0;
-  }
-  
-  /* Soft & Hard Skills */
-  .skill {
-    margin-bottom: 100px;
-  }
-  
-  .skills-title {
-    text-align: center;
-    font-size: 2em;
-    margin-bottom: 30px;
-  }
+.foto-profilo {
+  display: block;
+  border-radius: 50%;
+  max-width: 100%;
+  min-width: 15%;
+  height: auto;
+}
 
-  .skills-container {
-    display: flex;
-    justify-content: space-around;
-  }
+.visione {
+  margin-top: 0;
+  text-align: center;
+}
 
-  .skills-categoria {
-    text-align: center;
-  }
-  
+.visione-titolo {
+  margin-top: 0;
+  text-align: left;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.visione-contenuto {
+  text-align: left;
+  font-size: 18px;
+  /* margin: 20px; */
+  margin: 0;
+}
+
+/* Esperienza Lavorativa */
+.exp1-exp2 {
+  display: flex;
+}
+.exp1,
+.exp2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.exp1-titolo,
+.exp2-titolo {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.exp1-contenuto,
+.exp2-contenuto {
+  font-size: 18px;
+  margin: 20px;
+}
+
+.exp1-info,
+.exp2-info {
+  margin: 20px;
+  align-items: left;
+  margin: 0;
+}
+
+/* Soft & Hard Skills */
+.skill {
+  margin-bottom: 100px;
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skills-categoria {
+  text-align: center;
+}
+
 /* Social Buttom */
 .social-generic {
   display: flex;
@@ -134,7 +135,7 @@
     max-width: 50%;
     min-width: 50%;
     height: auto;
-  } 
+  }
 
   .visione {
     margin-left: 0;
@@ -142,7 +143,8 @@
     text-align: center;
   }
 
-  .exp1, .exp2 {
+  .exp1,
+  .exp2 {
     padding: 20px;
     margin-top: 20px;
   }
@@ -169,5 +171,3 @@
     width: 1rem;
   }
 }
-
-

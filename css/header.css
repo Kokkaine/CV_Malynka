@@ -1,6 +1,6 @@
 /* Barra Top */
 .barra-top {
-  font-family: 'Courier New', monospace;
+  font-family: "Courier New", monospace;
   background-color: #333;
   color: #fff;
   padding: 20px;
@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-.title{
+.title {
   padding-left: 30px;
 }
 .barra_top-title {
@@ -52,7 +52,7 @@
   padding: 10px 20px;
   border-radius: 10px;
   margin: 10px;
-  text-decoration:none;
+  text-decoration: none;
   text-align: right;
   cursor: pointer;
 }
@@ -66,56 +66,55 @@
   font-size: 14px;
 }
 
-
-
 /* General Media Query */
 /* Telefono */
 @media screen and (max-width: 480px) {
-.barra_top-title {
-  width: 100%;
-  font-size: 24px;
-}
+  .barra_top-title {
+    width: 100%;
+    font-size: 24px;
+  }
 
-.barra_top-subtitle {
-  width: 100%;
-  font-size: 18px;
-}
+  .barra_top-subtitle {
+    width: 100%;
+    font-size: 18px;
+  }
 
-.info {
-  font-size: 14px;
-  padding: 8px 16px;
-  display:flex;
-}
+  .info {
+    font-size: 14px;
+    padding: 8px 16px;
+    display: flex;
+  }
 
-.button, .contacts {
-  font-size: 14px;
-  padding: 8px 16px;
-}
+  .button,
+  .contacts {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
 
-.f1 {
-font-size: 14px;
-}
+  .f1 {
+    font-size: 14px;
+  }
 }
 
 /* Tablet */
 @media screen and (max-width: 768px) {
-.barra-top {
-flex-direction: column;
-justify-content: center;
-text-align: center;
-}
+  .barra-top {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
 
-.title {
-padding: 0;
-}
+  .title {
+    padding: 0;
+  }
 
-.info {
-margin-top: 20px;
-text-align: center;
-display: flex;
-}
+  .info {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+  }
 
-.contacts {
-text-align: center;
-}
+  .contacts {
+    text-align: center;
+  }
 }
